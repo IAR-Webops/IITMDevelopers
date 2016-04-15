@@ -55,7 +55,7 @@ return [
     |
     */
 
-    'from' => ['address' => 'no-reply@iitmadras.in', 'name' => 'IITM Developers Portal'],
+    'from' => ['address' => 'no-reply@iitmadras.in', 'name' => 'IITM Developers'],
 
     /*
     |--------------------------------------------------------------------------
