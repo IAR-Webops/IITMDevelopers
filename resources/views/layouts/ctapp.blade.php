@@ -73,6 +73,9 @@
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
                     </li>
+                    <li>
+                        <a class="page-scroll" href="{{ url('/login') }}">Log in</a>
+                    </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -86,7 +89,7 @@
             <div class="intro-text">
                 <div class="intro-lead-in">Connect on a global scale.</div>
                 <div class="intro-heading">Build and grow your apps</div>
-                <a href="#services" class="page-scroll btn btn-xl">Tell Me More</a>
+                <a href="{{ url('/login') }}" class="page-scroll btn btn-xl">Log in</a>
             </div>
         </div>
     </header>
@@ -97,33 +100,33 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Services</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h3 class="section-subheading text-muted">Our list of products</h3>
                 </div>
             </div>
             <div class="row text-center">
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
+                        <i class="fa fa-key fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="service-heading">E-Commerce</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                    <h4 class="service-heading">IITMConnect Login</h4>
+                    <p class="text-muted">OAuth 2.0 authorization framework that enables applications to obtain limited access to user accounts on IITM Connect.</p>
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
+                        <i class="fa fa-cloud fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="service-heading">Responsive Design</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                    <h4 class="service-heading">Web Hosting</h4>
+                    <p class="text-muted">Virtual storage space and access for websites for institute organizations.</p>
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
+                        <i class="fa fa-globe fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="service-heading">Web Security</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                    <h4 class="service-heading">Domain Registration</h4>
+                    <p class="text-muted">Make URL's easier to remember and use for Web pages. Only for sub-domains on iitmadras.in</p>
                 </div>
             </div>
         </div>
