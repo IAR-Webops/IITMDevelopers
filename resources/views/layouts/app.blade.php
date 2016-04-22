@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Laravel</title>
+    <title>IITM Developers</title>
 
-    <meta name="description" content="IIT Madras Library Portal">
+    <meta name="description" content="IIT Madras Developers Portal">
     <meta name="keywords" content="IITM,IITMDevelopers,IIT Developers,IIT Madras Developers">
     <meta name="author" content="Yash Murty">
 
@@ -46,7 +46,7 @@
 
                 <!-- Branding Image -->
                 <a class="navbar-brand" href="{{ url('/') }}">
-                    Laravel
+                    IITM Developers
                 </a>
             </div>
 
