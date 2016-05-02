@@ -394,7 +394,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <span class="copyright">Copyright &copy; Yash Murty</span>
+                    <span class="copyright">Copyright &copy; <a href="http://yashmurty.com">Yash Murty</a></span>
                 </div>
                 <div class="col-md-4">
                     <ul class="list-inline social-buttons">
