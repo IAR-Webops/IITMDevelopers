@@ -11,10 +11,18 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
 Route::auth();
 
 Route::get('/home', 'HomeController@index');
+
+/* Public Pages */
+// Public - Welcome
+    Route::get('/', [
+	    'as' => 'welcome', 'uses' => 'PublicPagesController@getWelcome'
+	]);
+
+
