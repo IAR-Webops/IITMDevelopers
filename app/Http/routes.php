@@ -17,7 +17,7 @@
 
 Route::auth();
 
-Route::get('/home', 'HomeController@index');
+Route::get('/home', 'ProtectedPagesController@getHome');
 
 /* Public Pages */
 // Public - Welcome

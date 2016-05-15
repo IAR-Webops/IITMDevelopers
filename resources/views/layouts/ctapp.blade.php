@@ -74,7 +74,11 @@
                         <a class="page-scroll" href="#contact">Contact</a>
                     </li>
                     <li>
+                    @if (Auth::guest())
                         <a class="page-scroll" href="{{ url('/login') }}">Log in</a>
+                    @else
+                        <a class="page-scroll" href="{{ url('/home') }}">Dashboard</a>
+                    @endif
                     </li>
                 </ul>
             </div>
@@ -89,7 +93,11 @@
             <div class="intro-text">
                 <div class="intro-lead-in">Connect on a global scale.</div>
                 <div class="intro-heading">Build and grow your apps</div>
+                @if (Auth::guest())
                 <a href="{{ url('/login') }}" class="page-scroll btn btn-xl">Log in</a>
+                @else
+                <a href="{{ url('/home') }}" class="page-scroll btn btn-xl">Visit Dashboard</a>
+                @endif
             </div>
         </div>
     </header>
