@@ -73,6 +73,13 @@
                                 </button>
                             </div>
                         </div>
+                        <div class="form-group">
+                            <div class="col-md-6 col-md-offset-4">
+                            <hr>
+                                Already have an Account?
+                                <a class="btn btn-warning" href="{{ url('/login') }}">Login</a>
+                            </div>
+                        </div>
                     </form>
                 </div>
             </div>

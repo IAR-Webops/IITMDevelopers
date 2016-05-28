@@ -61,7 +61,7 @@
                             <div class="col-md-6 col-md-offset-4">
                             <hr>
                                 Don't have an Account?
-                                <a class="btn btn-warning" href="{{ url('/register') }}"> Register now</a>
+                                <a class="btn btn-warning" href="{{ url('/register') }}">Register now</a>
                             </div>
                         </div>
                         
